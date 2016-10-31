@@ -1,0 +1,96 @@
+#c13593 {
+    display: none;
+}
+
+#road-constr-carousel-container.carousel-container-like {
+    overflow: hidden;
+}
+
+#road-constr-carousel-container .carousel {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 1000%;
+}
+
+#road-constr-carousel-container .slide {
+    float: left;
+    left: 0;
+    transition: left 1s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 10%;
+}
+
+#road-constr-carousel-container .carousel:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#road-constr-carousel-container .slide-image {
+    vertical-align: middle;
+    text-overflow: clip;
+    width: 100%;
+}
+
+#road-constr-carousel-container .carousel-controls-container {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 60px;
+    height: 60px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#road-constr-carousel-container .carousel-controls-container li {
+    vertical-align: middle;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 10px 8px;
+}
+
+#road-constr-carousel-container .carousel-btn-like {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#road-constr-carousel-container .carousel-btn-like.checked {
+    background-color: black;
+}
+
+#c1011 h2 {
+    margin: 1em auto;
+    font-size: 24px;
+}
+
+#c1011 p.align-justify {
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+#reasons-container img {
+    width: 100%;
+}
+
+#reasons-container .reasons-header {
+    text-align: center;
+    font-size: 24px;
+}
+
+#reasons-container .reasons-to-enter-faculty {
+    list-style-image: url("road_constr_main_images/list-icon.png");
+    font-size: 20px;
+}
+
+
+
+
+
